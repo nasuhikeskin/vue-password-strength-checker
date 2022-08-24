@@ -1,17 +1,16 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <pass-word-checker></pass-word-checker>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import PassWordChecker from './components/PassWordChecker.vue'
 
 export default {
   name: 'app',
   components: {
-    HelloWorld
+    PassWordChecker
   }
 }
 </script>
@@ -24,5 +23,7 @@ export default {
   text-align: center;
   color: #2c3e50;
   margin-top: 60px;
+  display: flex;
+  justify-content: center;  
 }
 </style>
